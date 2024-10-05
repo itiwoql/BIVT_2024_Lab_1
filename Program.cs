@@ -161,7 +161,7 @@ public class Program
             y = 0.5 * x * x - 7 * x;
             Console.WriteLine($"{x,7}|{y,11:F2}");
         }
-        answer = y;
+        answer = Math.Round(y,2);
 
         // end
 
