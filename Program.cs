@@ -385,7 +385,7 @@ public class Program
         double grains = 1;
         answer = 1;
 
-        for (int i = 1; i <= 64; i++)
+        for (int i = 1; i <= 63; i++)
         {
             grains *= 2;
             answer += grains;
